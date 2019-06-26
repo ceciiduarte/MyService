@@ -1,6 +1,7 @@
 body {
     background-color: rgb(238, 186, 144);
 }
+
 #form-login{
     color: rgb(8, 4, 0);
 }
@@ -14,9 +15,15 @@ body {
 
   #entrar{
     position: absolute;
-    top: 59%;
+    top: 64%;
     left: 51%;
     transform: translate(-50%, -50%);
   }
 
-  
+  #form-login{
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid black ;
+    border-radius: 1em;
+  }

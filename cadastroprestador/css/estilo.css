@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(238, 186, 144);
+}
+
+#Foto,#form1,#form2,#form3,#form4{
+    color: rgb(8, 4, 0);
+}
+
+#Foto{
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    transform: translate(-5%, -3%);
+  }
+
+#Enviar{
+    position: absolute;
+    top: 50%;
+    left: 12%;
+    transform: translate(-50%, -12%);
+}
+
+#form1{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -40%);
+}
+
+#form2{
+    position: absolute;
+    top: 23%;
+    left: 70%;
+    transform: translate(-10%, -70%);
+}
+
+#form3{
+    position: absolute;
+    top: 69%;
+    left: 70%;
+    transform: translate(-10%, -70%);
+}
+
+#form4{
+    position: absolute;
+    top: 102%;
+    left: 70%;
+    transform: translate(-10%, -70%);
+}
+
+#cadastrar{
+    position: absolute;
+    top: 113%;
+    left: 70%;
+    transform: translate(-10%, -70%);
+}
