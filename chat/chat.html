@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>  
+<head>  
+    <meta charset="UTF-8"/>
+    <title>Tela de chat</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body> 
+    <header id= "interface">
+        <h1>Chat</h1>
+    </header> 
+    <img src ="imagens/userphoto.png"/>
+<div id="cabeça">
+    <p><strong>Nome:</strong>Leonidas de Esparta.</p>
+    <p><strong>Especialidade</strong>Limpador de Corrimão.</p>
+    <p><strong>Dias de trabablho:</strong>Segunda á Sábado.</p>
+    <p><strong>Cidade onde atua:</strong>São Paulo, SP</p>
+</div> 
+    <br/><br/>
+    <p><Strong>Sou limpador de corrimâo a mais de 20 anos! Meus trabalhos são feitos com muito esmero e da melhor maneira possivel, tudo para o bem do seu Corrimão</Strong> </p>
+
+    <form name = "conversa" action= "conversas.txt" method="POST" target="chat">
+        <div id= "conversas">
+        <table> 
+            <tr>
+                <td>    
+                Felipe Maia: <input type="text" name= "conversa"/>
+                <input type="submit" value="Enviar">
+                </td>
+               
+                </tr>   
+            <tr>    
+                    <td>    
+                    <iframe name="chat"></iframe>
+                    </td>
+            </tr> 
+        </table>
+        <table> 
+            <tr>
+                <td>    
+               Caio Boris: <input type="text" name= "conversa"/>
+                <input type="submit" value="Enviar">
+                </td>
+               
+                </tr>   
+            <tr>    
+                    <td>    
+                    <iframe name="chat"></iframe>
+                    </td>
+            </tr> 
+        </table>
+        </div>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
