@@ -1,7 +1,12 @@
 body {
-    background-color: rgba(230, 228, 162, 0.925);
+    background: linear-gradient(45deg,#ccffff,#ffcccc);
 }
 
+
+#letreiro{
+    position: absolute;
+    right:40%
+}
 .borda{
     border-color: black;
     border-width:8px;
@@ -14,7 +19,27 @@ input[type=button]{
     bottom:20%;
     border-radius:20px;
 }
+input[type=button]:hover{
+    background-color: #ccffff;
+}
 
+input[type=text] {
+    bottom:20%;
+    border-radius:20px;
+    background-color: #AAAAAA  ;
+}
+
+input[type=date] {
+    bottom:20%;
+    border-radius:20px;
+    background-color: #AAAAAA  ;
+}
+
+input[type=password] {
+    bottom:20%;
+    border-radius:20px;
+    background-color: #AAAAAA ;
+}
 
 form{
     border-radius: 20px;
@@ -24,16 +49,16 @@ form{
 }
 
 #Foto{
-    position: absolute;
+    position:absolute;
     top: 5%;
     left: 3%;
     transform: translate(-5%, -3%);
   }
 
 #Enviar{
-    position: absolute;
-    top:40%;
-    left:11%;
+    position:absolute;
+    top:32%;
+    left: 15%;
     transform: translate(-50%, -12%);
     font-size:20px;
 }
@@ -43,7 +68,7 @@ form{
     top: 45%;
     left: 40%;
     transform: translate(-45%, -40%);
-    background: linear-gradient(35deg,rgb(139, 202, 202),rgb(199, 169, 103));;
+    background: white;
     padding: 50px;
     border-radius:20px;
   
@@ -56,7 +81,7 @@ form{
     top: 45%;
     left: 70%;
     transform: translate(-45%, -40%);
-    background: linear-gradient(35deg,rgb(139, 202, 202),rgb(199, 169, 103));
+    background:white;
     padding: 50px;
     border-radius:20px;
   
@@ -71,7 +96,7 @@ form{
 
 #cadastrar{
     position: absolute;
-    top: 80%;
+    top: 70%;
     left: 70%;
     transform: translate(-10%, -70%);
 }
