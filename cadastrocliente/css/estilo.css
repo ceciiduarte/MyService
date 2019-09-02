@@ -1,7 +1,24 @@
 body {
-    background-color: rgb(238, 186, 144);
+    background-color: rgba(230, 228, 162, 0.925);
 }
 
+.borda{
+    border-color: black;
+    border-width:8px;
+    border-style:solid;
+    border-radius: 134px;
+}
+input[type=button]{
+    width:8em;
+    height:3em;
+    bottom:20%;
+    border-radius:20px;
+}
+
+
+form{
+    border-radius: 20px;
+}
 #Foto,#form1,#form2,#form3,#form4{
     color: rgb(8, 4, 0);
 }
@@ -15,9 +32,10 @@ body {
 
 #Enviar{
     position: absolute;
-    top: 50%;
-    left: 12%;
+    top:40%;
+    left:11%;
     transform: translate(-50%, -12%);
+    font-size:20px;
 }
 
 #form1{
@@ -25,13 +43,23 @@ body {
     top: 45%;
     left: 40%;
     transform: translate(-45%, -40%);
+    background: linear-gradient(35deg,rgb(139, 202, 202),rgb(199, 169, 103));;
+    padding: 50px;
+    border-radius:20px;
+  
 }
+
+
 
 #form2{
     position: absolute;
-    top: 28%;
+    top: 45%;
     left: 70%;
-    transform: translate(-10%, -70%);
+    transform: translate(-45%, -40%);
+    background: linear-gradient(35deg,rgb(139, 202, 202),rgb(199, 169, 103));
+    padding: 50px;
+    border-radius:20px;
+  
 }
 
 #form3{
@@ -43,7 +71,7 @@ body {
 
 #cadastrar{
     position: absolute;
-    top: 95%;
+    top: 80%;
     left: 70%;
     transform: translate(-10%, -70%);
 }
