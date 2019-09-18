@@ -8,7 +8,7 @@
     <body>
         <div id="letreiro">
         <h1>Cadastre-se agora!!!</h1>
-            </div>>
+            </div>
         <div id="Foto">
             <img class="borda"src ="imagens/userphoto.png"/>
         </div>
@@ -40,43 +40,61 @@
                 <input type="text">
                 <br><br>
 
-                <label><strong>Senha</strong></label>
-                <br><br>
-                <input type="password">
-                <br><br>
-
-                <label><strong>Endereco</strong></label>
-                <br><br>
-                <input type="text">
-                <br><br>
-
                 <label><strong>Cadastrar-se como:</strong></label>
                 <br><br>
-                <input type="radio" name="tipo" value="cliente">
-                <label>Prestador de Servicos</label>
-                <input type="radio" name="tipo" value="prestador">
-                <label>Cliente</label>
+                <input type="radio" name="tipo" id="prestador">
+                <label for="prestador">Prestador de Servicos</label>
+                <input type="radio" name="tipo" id="cliente">
+                <label for="cliente">Cliente</label>
                 <br><br>
+            <div id="informacoesAdicionais">
+                <form>
+                    <label><strong>CNPJ</strong></label>
+                    <br><br>
+                    <input type="text" id="cnpj">
+                    <br><br>
+                    <label><strong>Área de Atuação</strong></label>
+                    <br><br>
+                    <input type="text" id="area">
+                    <br><br>
+                    <label><strong> Experiência na Área</strong></label>
+                    <br><br>
+                    <input type="text" id="experiencia">
+
+                    
+                </form>
+             </div>
         </div>
 
         <div class="borda" id="form2">
             <form>
                
-                <label>CPF</label>
+                <label><strong>CPF</strong>></label>
                 <br><br>
                 <input type="text">
                 <br><br>
-                <label>Telefone</label>
+                <label><strong>Telefone</strong>></label>
                 <br><br>
                 <input type="text">
                 <br><br>
-
-                <label>Confirmacao de Senha</label>
+                
+                <label><strong>Senha</strong></label>
                 <br><br>
                 <input type="password">
                 <br><br>
 
-                <label>Cidade</label>
+
+                <label><strong>Confirmacao de Senha</strong></label>
+                <br><br>
+                <input type="password">
+                <br><br>
+
+                <label><strong>Cidade</strong></label>
+                <br><br>
+                <input type="text">
+                <br><br>
+                
+                <label><strong>Endereco</strong></label>
                 <br><br>
                 <input type="text">
                 <br><br>
@@ -86,6 +104,8 @@
         <div class="borda"id="cadastrar">
             <input type="button" value="Cadastrar">
         </div>
+
+        <script src="cadastro.js"></script>
     </body>
 
 </html>

@@ -96,7 +96,11 @@ form{
 
 #cadastrar{
     position: absolute;
-    top: 70%;
+    top: 80%;
     left: 70%;
     transform: translate(-10%, -70%);
+}
+
+#informacoesAdicionais{
+    display: none;
 }
